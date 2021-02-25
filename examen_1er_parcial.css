@@ -28,12 +28,229 @@ nav{
 
 .aboutUs{
     background-color: rgb(6, 6, 88);
-    color: white;
+    color: pink;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.aboutUs img{
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: auto;
 }
 
 .izq, .der{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 50%;
     float: left;
 }
+
+.barraExterior{
+    background-color: gray;
+    height: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.barraInterior1{
+    height: 10px;
+    background-color: orange;
+    width: 80%;
+}
+
+.barraInterior2{
+    height: 10px;
+    background-color: orange;
+    width: 90%;
+}
+
+.barraInterior3{
+    height: 10px;
+    background-color: orange;
+    width: 75%;
+}
+
+.barraInterior4{
+    height: 10px;
+    background-color: orange;
+    width: 80%;
+}
+
+.barraInterior5{
+    height: 10px;
+    background-color: orange;
+    width: 50%;
+}
+
+.colorPalette h1,h4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .colorPalette ui{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+  
+  #cP11{
+    height:100px;
+    width: 100px;
+    background-color: #69D2E7;
+  }
+  
+  #cP12{
+    height:100px;
+    width: 100px;
+    background-color: #A7DBDB;
+  }
+  
+  #cP13{
+    height:100px;
+    width: 100px;
+    background-color: #E0E4CC;
+  }
+  
+  #cP14{
+    height:100px;
+    width: 100px;
+    background-color: #F38630;
+  }
+  
+  #cP15{
+    height:100px;
+    width: 100px;
+    background-color: #FA6900;
+  }
+  
+  #cP21{
+    height:100px;
+    width: 100px;
+    background-color: #E94C6F ;
+  }
+  
+  #cP22{
+    height:100px;
+    width: 100px;
+    background-color: #542733 ;
+  }
+  
+  #cP23{
+    height:100px;
+    width: 100px;
+    background-color: #5A6A62 ;
+  }
+  
+  #cP24{
+    height:100px;
+    width: 100px;
+    background-color: #C6D5CD ;
+  }
+  
+  #cP25{
+    height:100px;
+    width: 100px;
+    background-color: #FDF200 ;
+  }
+  
+  #cP31{
+    height:100px;
+    width: 100px;
+    background-color: #DB3340 ;
+  }
+  
+  #cP32{
+    height:100px;
+    width: 100px;
+    background-color: #E8B71A ;
+  }
+  
+  #cP33{
+    height:100px;
+    width: 100px;
+    background-color: #F7EAC8 ;
+  }
+  
+  #cP34{
+    height:100px;
+    width: 100px;
+    background-color: #1FDA9A ;
+  }
+  
+  #cP35{
+    height:100px;
+    width: 100px;
+    background-color: #28ABE3 ;
+  }
+  
+  #cP41{
+    height:100px;
+    width: 100px;
+    background-color: #588C73 ;
+  }
+  
+  #cP42{
+    height:100px;
+    width: 100px;
+    background-color: #F2E394 ;
+  }
+  
+  #cP43{
+    height:100px;
+    width: 100px;
+    background-color: #F2AE72 ;
+  }
+  
+  #cP44{
+    height:100px;
+    width: 100px;
+    background-color: #D96459 ;
+  }
+  
+  #cP45{
+    height:100px;
+    width: 100px;
+    background-color: #8C4646 ;
+  }
+  
+  #cP51{
+    height:100px;
+    width: 100px;
+    background-color: #D0C91F ;
+  }
+  
+  #cP52{
+    height:100px;
+    width: 100px;
+    background-color: #85C4B9 ;
+  }
+  
+  #cP53{
+    height:100px;
+    width: 100px;
+    background-color: #008BBA ;
+  }
+  
+  #cP54{
+    height:100px;
+    width: 100px;
+    background-color: #DF514C ;
+  }
+  
+  #cP55{
+    height:100px;
+    width: 100px;
+    background-color: #DC403B ;
+  }
+  
+
 
 
