@@ -1,4 +1,39 @@
 body{
-    background-color: blue;
 }
+
+nav{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    color: white;
+}
+
+.image{
+    background-image: url("Imagenes/carousel-bg.jpg");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.aboutUs{
+    background-color: rgb(6, 6, 88);
+    color: white;
+}
+
+.izq, .der{
+    width: 50%;
+    float: left;
+}
+
 
